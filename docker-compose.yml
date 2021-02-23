@@ -4,7 +4,7 @@ services:
     image: nico640/docker-unms:latest
     restart: always
     ports:
-      - 80:80
+      - 9480:80
       - 9443:443
       - 2055:2055/udp
     environment:
