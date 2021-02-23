@@ -1,7 +1,7 @@
 version: '2'
 services:
   unms:
-    image: nico640/docker-unms:latest
+    image: carlvaneijk/docker-unms:latest
     restart: always
     ports:
       - 80:80
